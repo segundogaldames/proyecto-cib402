@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 4.0.0-rc.0, created on 2021-11-24 15:48:55
+/* Smarty version 4.0.0-rc.0, created on 2021-11-24 16:33:20
   from '/var/www/html/proyecto-cib402/views/layout/default/template.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.0.0-rc.0',
-  'unifunc' => 'content_619e89178c7356_40070260',
+  'unifunc' => 'content_619e93800b1939_02417699',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     '260f88bdfd4fe54004e77956dd2fabd18afb5fa7' => 
     array (
       0 => '/var/www/html/proyecto-cib402/views/layout/default/template.tpl',
-      1 => 1637778125,
+      1 => 1637782396,
       2 => 'file',
     ),
   ),
@@ -21,7 +21,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
     'file:menu.tpl' => 1,
   ),
 ),false)) {
-function content_619e89178c7356_40070260 (Smarty_Internal_Template $_smarty_tpl) {
+function content_619e93800b1939_02417699 (Smarty_Internal_Template $_smarty_tpl) {
 ?><!DOCTYPE html>
 <html>
    <head>
@@ -94,12 +94,12 @@ $_smarty_tpl->smarty->ext->_foreach->restore($_smarty_tpl, 1);?>
 ?>
     </header>
 
-    <main id="main">
+    <div class="container-fluid">
       <noscript><p>Debe tener el soporte de Javascript habilitado</p></noscript>
 
       <?php $_smarty_tpl->_subTemplateRender($_smarty_tpl->tpl_vars['_contenido']->value, $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, 0, $_smarty_tpl->cache_lifetime, array(), 0, true);
 ?>
-    </main>
+    </div>
 
 
 

@@ -49,11 +49,11 @@
       {include file="menu.tpl"}
     </header>
 
-    <main id="main">
+    <div class="container-fluid">
       <noscript><p>Debe tener el soporte de Javascript habilitado</p></noscript>
 
       {include file=$_contenido}
-    </main>
+    </div>
 
 
 
