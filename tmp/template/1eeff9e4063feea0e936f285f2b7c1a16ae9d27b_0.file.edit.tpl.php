@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 4.0.0-rc.0, created on 2021-12-01 15:01:26
-  from '/var/www/html/proyecto-cib402/views/roles/add.tpl' */
+/* Smarty version 4.0.0-rc.0, created on 2021-12-01 15:18:37
+  from '/var/www/html/proyecto-cib402/views/roles/edit.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.0.0-rc.0',
-  'unifunc' => 'content_61a7b87621bb06_20363751',
+  'unifunc' => 'content_61a7bc7d581407_95877106',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
-    '417d312ac4ab12bccebe0d8941adf1383e859c5a' => 
+    '1eeff9e4063feea0e936f285f2b7c1a16ae9d27b' => 
     array (
-      0 => '/var/www/html/proyecto-cib402/views/roles/add.tpl',
-      1 => 1638381659,
+      0 => '/var/www/html/proyecto-cib402/views/roles/edit.tpl',
+      1 => 1638382678,
       2 => 'file',
     ),
   ),
@@ -22,7 +22,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
     'file:../roles/_form.tpl' => 1,
   ),
 ),false)) {
-function content_61a7b87621bb06_20363751 (Smarty_Internal_Template $_smarty_tpl) {
+function content_61a7bc7d581407_95877106 (Smarty_Internal_Template $_smarty_tpl) {
 ?><div class="col-md-12">
     <h1 class="text-center"><?php echo $_smarty_tpl->tpl_vars['title']->value;?>
 </h1>
@@ -31,6 +31,8 @@ function content_61a7b87621bb06_20363751 (Smarty_Internal_Template $_smarty_tpl)
             <div class="list-group">
                 <a href="<?php echo $_smarty_tpl->tpl_vars['_layoutParams']->value['root'];?>
 roles" class="list-group-item list-group-item-action">Roles</a>
+                <a href="<?php echo $_smarty_tpl->tpl_vars['_layoutParams']->value['root'];?>
+roles/add" class="list-group-item list-group-item-success">Agregar Rol</a>
             </div>
         </div>
         <div class="col-md-10">

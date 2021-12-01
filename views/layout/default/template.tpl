@@ -3,7 +3,7 @@
    <head>
    	<meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>{$titulo|default:"Sin Titulo"}</title>
+    <title>PCIB :: {$titulo|default:"Sin Titulo"}</title>
     <meta name="description" content="Your Description Here">
     <meta name="keywords" content="bootstrap themes, portfolio, responsive theme">
       <!-- Favicons

@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 4.0.0-rc.0, created on 2021-11-24 16:33:20
+/* Smarty version 4.0.0-rc.0, created on 2021-12-01 13:43:15
   from '/var/www/html/proyecto-cib402/views/layout/default/template.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.0.0-rc.0',
-  'unifunc' => 'content_619e93800b1939_02417699',
+  'unifunc' => 'content_61a7a6236d3cd4_74003877',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     '260f88bdfd4fe54004e77956dd2fabd18afb5fa7' => 
     array (
       0 => '/var/www/html/proyecto-cib402/views/layout/default/template.tpl',
-      1 => 1637782396,
+      1 => 1638376991,
       2 => 'file',
     ),
   ),
@@ -21,13 +21,13 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
     'file:menu.tpl' => 1,
   ),
 ),false)) {
-function content_619e93800b1939_02417699 (Smarty_Internal_Template $_smarty_tpl) {
+function content_61a7a6236d3cd4_74003877 (Smarty_Internal_Template $_smarty_tpl) {
 ?><!DOCTYPE html>
 <html>
    <head>
    	<meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title><?php echo (($tmp = $_smarty_tpl->tpl_vars['titulo']->value ?? null)===null||$tmp==='' ? "Sin Titulo" ?? null : $tmp);?>
+    <title>PCIB :: <?php echo (($tmp = $_smarty_tpl->tpl_vars['titulo']->value ?? null)===null||$tmp==='' ? "Sin Titulo" ?? null : $tmp);?>
 </title>
     <meta name="description" content="Your Description Here">
     <meta name="keywords" content="bootstrap themes, portfolio, responsive theme">

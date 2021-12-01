@@ -45,6 +45,16 @@ h6 {
   padding: 0;
 }
 
+/* sidebar */
+.sidebar{
+
+  border-radius: 5px 5px 5px 5px;
+  -moz-border-radius: 5px 5px 5px 5px;
+  -webkit-border-radius: 5px 5px 5px 5px;
+  border: 0px solid rgb(242, 243, 239);
+  height: auto;
+}
+
 /* Back to top button */
 
 .back-to-top {

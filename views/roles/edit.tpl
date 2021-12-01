@@ -4,6 +4,7 @@
         <div class="col-md-2 sidebar">
             <div class="list-group">
                 <a href="{$_layoutParams.root}roles" class="list-group-item list-group-item-action">Roles</a>
+                <a href="{$_layoutParams.root}roles/add" class="list-group-item list-group-item-success">Agregar Rol</a>
             </div>
         </div>
         <div class="col-md-10">

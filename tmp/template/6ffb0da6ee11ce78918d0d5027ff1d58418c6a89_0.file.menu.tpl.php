@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 4.0.0-rc.0, created on 2021-11-24 16:37:52
+/* Smarty version 4.0.0-rc.0, created on 2021-12-01 15:38:46
   from '/var/www/html/proyecto-cib402/views/layout/default/menu.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.0.0-rc.0',
-  'unifunc' => 'content_619e9490bb9549_34263400',
+  'unifunc' => 'content_61a7c136743834_16628470',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     '6ffb0da6ee11ce78918d0d5027ff1d58418c6a89' => 
     array (
       0 => '/var/www/html/proyecto-cib402/views/layout/default/menu.tpl',
-      1 => 1637782667,
+      1 => 1638383918,
       2 => 'file',
     ),
   ),
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_619e9490bb9549_34263400 (Smarty_Internal_Template $_smarty_tpl) {
+function content_61a7c136743834_16628470 (Smarty_Internal_Template $_smarty_tpl) {
 ?><nav class="navbar navbar-expand-lg navbar-light bg-light">
     <div class="container-fluid">
         <a class="navbar-brand" href="<?php echo $_smarty_tpl->tpl_vars['_layoutParams']->value['root'];?>
@@ -41,15 +41,17 @@ function content_619e9490bb9549_34263400 (Smarty_Internal_Template $_smarty_tpl)
                 <li class="nav-item dropdown">
                     <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
                         data-bs-toggle="dropdown" aria-expanded="false">
-                        Dropdown
+                        Administración
                     </a>
                     <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
                         <li><a class="dropdown-item" href="#">Action</a></li>
-                        <li><a class="dropdown-item" href="#">Another action</a></li>
+                        <li><a class="dropdown-item" href="<?php echo $_smarty_tpl->tpl_vars['_layoutParams']->value['root'];?>
+especialidades">Especialidades</a></li>
                         <li>
                             <hr class="dropdown-divider">
                         </li>
-                        <li><a class="dropdown-item" href="#">Something else here</a></li>
+                        <li><a class="dropdown-item" href="<?php echo $_smarty_tpl->tpl_vars['_layoutParams']->value['root'];?>
+roles">Roles</a></li>
                     </ul>
                 </li>
                 <li class="nav-item">

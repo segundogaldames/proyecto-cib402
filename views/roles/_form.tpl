@@ -6,6 +6,6 @@
     <div class="mb-3">
         <input type="hidden" name="enviar" value="{$enviar}">
         <button type="submit" class="btn btn-outline-success">{$button}</button>
-        <a href="{$_layoutParams.root}roles" class="btn btn-outline-primary">Volver</a>
+        <a href="{$_layoutParams.root}{$ruta}" class="btn btn-outline-primary">Volver</a>
     </div>
 </form>
