@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 4.0.0-rc.0, created on 2021-12-01 15:38:46
+/* Smarty version 4.0.0-rc.0, created on 2021-12-01 16:49:25
   from '/var/www/html/proyecto-cib402/views/layout/default/menu.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.0.0-rc.0',
-  'unifunc' => 'content_61a7c136743834_16628470',
+  'unifunc' => 'content_61a7d1c5506cd5_79293463',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     '6ffb0da6ee11ce78918d0d5027ff1d58418c6a89' => 
     array (
       0 => '/var/www/html/proyecto-cib402/views/layout/default/menu.tpl',
-      1 => 1638383918,
+      1 => 1638388157,
       2 => 'file',
     ),
   ),
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_61a7c136743834_16628470 (Smarty_Internal_Template $_smarty_tpl) {
+function content_61a7d1c5506cd5_79293463 (Smarty_Internal_Template $_smarty_tpl) {
 ?><nav class="navbar navbar-expand-lg navbar-light bg-light">
     <div class="container-fluid">
         <a class="navbar-brand" href="<?php echo $_smarty_tpl->tpl_vars['_layoutParams']->value['root'];?>
@@ -44,9 +44,13 @@ function content_61a7c136743834_16628470 (Smarty_Internal_Template $_smarty_tpl)
                         Administración
                     </a>
                     <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                        <li><a class="dropdown-item" href="#">Action</a></li>
                         <li><a class="dropdown-item" href="<?php echo $_smarty_tpl->tpl_vars['_layoutParams']->value['root'];?>
 especialidades">Especialidades</a></li>
+                        <li>
+                            <hr class="dropdown-divider">
+                        </li>
+                        <li><a class="dropdown-item" href="<?php echo $_smarty_tpl->tpl_vars['_layoutParams']->value['root'];?>
+funcionarios">Funcionarios</a></li>
                         <li>
                             <hr class="dropdown-divider">
                         </li>
