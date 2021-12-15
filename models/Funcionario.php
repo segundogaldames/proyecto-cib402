@@ -17,4 +17,9 @@ class Funcionario extends Model
     {
         return $this->belongsTo(Rol::class);
     }
+
+    public function usuario()
+    {
+        return $this->hasOne(Usuario::class);
+    }
 }

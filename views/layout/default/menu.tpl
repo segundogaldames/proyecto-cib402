@@ -30,9 +30,30 @@
                         <li><a class="dropdown-item" href="{$_layoutParams.root}roles">Roles</a></li>
                     </ul>
                 </li>
-                <li class="nav-item">
-                    <a class="nav-link disabled">Disabled</a>
+                {if isset(Session::get('autenticado'))}
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            {Session::get('usuario_nombre')}
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item" href="#">{Session::get('usuario_rol')}</a></li>
+                            <li><a class="dropdown-item" href="{$_layoutParams.root}usuarios/view">Mi perfil</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="{$_layoutParams.root}usuarios/logout">Salir</a></li>
+                        <li>
+                        </ul>
+                    </li>
+                {else}
+                    <li class="nav-item">
+                    <a class="nav-link" href="#">Link</a>
                 </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="{$_layoutParams.root}usuarios/login">Iniciar Sessión</a>
+                    </li>
+                {/if}
             </ul>
             <form class="d-flex">
                 <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">

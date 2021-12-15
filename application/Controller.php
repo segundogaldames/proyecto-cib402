@@ -33,7 +33,13 @@ abstract class Controller
 	}
 
 	protected function verificarRolAdmin(){
-		if (Session::get('usuario_rol')!= 'Administrador') {
+		if (Session::get('usuario_rol')!= 'Administrador(a)') {
+			$this->redireccionar();
+		}
+	}
+
+	protected function verificarRolAdminSuper(){
+		if (Session::get('usuario_rol')!= 'Administrador(a)' && Session::get('usuario_rol') != 'Supervisor(a)') {
 			$this->redireccionar();
 		}
 	}
